@@ -12,8 +12,6 @@ def sim(line_no,line_data,data,scores):
     '''
     m_key = max(scores, key = int)
     scores[line_no+1] = {}
-    print(line_no)
-    print(m_key+1)
     line_data = line_data.replace('\n','')
     for c,l in enumerate(data):
         l = l.replace('\n','')
